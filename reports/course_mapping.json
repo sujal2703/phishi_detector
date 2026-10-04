@@ -1,0 +1,10 @@
+{
+  "units": [
+    {"unit": 1, "concept": "Descriptive statistics and Bayes rule", "mathematical_component": "moments, empirical probabilities, P(F|E)=P(E|F)P(F)/P(E)", "implementation": "backend/app/ml/unit1.py", "project_usage": "Dataset characterization and a >=3 dot empirical conditional probability example", "ui_demonstration": "Unit 1 statistics page"},
+    {"unit": 2, "concept": "Linear models / classification", "mathematical_component": "sigmoid likelihood, Gaussian prior, Laplace posterior approximation; linear SVM and logistic benchmark", "implementation": "backend/app/ml/models.py", "project_usage": "Binary phishing probability and model comparison", "ui_demonstration": "Unit 2 classifier methods and measured holdout metrics"},
+    {"unit": 3, "concept": "Mixture models and EM course unit; PCA project demonstration", "mathematical_component": "centered covariance eigendecomposition and explained variance", "implementation": "backend/app/ml/unit3.py", "project_usage": "Unsupervised dimension reduction and 2D projection; not the classifier", "ui_demonstration": "Unit 3 variance chart and labeled 2D scatter"},
+    {"unit": 4, "concept": "Hidden Markov Models course unit; observable-state Markov demonstration", "mathematical_component": "first-order transition counts, add-one probabilities, sequence likelihood", "implementation": "backend/app/ml/unit4.py", "project_usage": "Descriptive sequence structure signal; not a corpus-trained detector", "ui_demonstration": "Unit 4 token transitions and score within URL Analyzer"},
+    {"unit": 5, "concept": "Combining models / tree learning", "mathematical_component": "greedy CART Gini reduction and bootstrap random forest", "implementation": "backend/app/ml/models.py", "project_usage": "Compare tree and ensemble with linear models", "ui_demonstration": "Unit 5 measured metrics and feature importance"}
+  ],
+  "caveat": "Unit 4 is demonstrated using a Markov sequential model over observable URL-token categories rather than a full Hidden Markov Model."
+}
